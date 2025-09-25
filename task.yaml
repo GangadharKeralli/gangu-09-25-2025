@@ -1,0 +1,15 @@
+instruction: |
+  Write a Bash script that reads a number from a file called `input.txt`
+  and writes `even` if the number is even, or `odd` if the number is odd,
+  into a file called `output.txt`.
+
+  Requirements:
+  - The input will always be a single non-negative integer (0–9999).
+  - The output must be exactly `even` or `odd` (lowercase, no extra spaces, no newline at the end).
+  - Example: if `input.txt` contains `7`, then `output.txt` must contain `odd`.
+
+author_email: your@email.com
+difficulty: easy
+tags: [bash, numbers, conditionals]
+max_agent_timeout_sec: 60
+max_test_timeout_sec: 10
